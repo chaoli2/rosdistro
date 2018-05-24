@@ -5,6 +5,7 @@
 release_platforms:
   ubuntu:
   - bionic
+  - xenial
 repositories:
 type: distribution
 version: 2
