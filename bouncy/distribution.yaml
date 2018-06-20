@@ -7,5 +7,26 @@ release_platforms:
   - bionic
   - xenial
 repositories:
+  ros2_intel_movidius_ncs:
+    doc:
+      type: git
+      url: https://github.com/intel/ros2_intel_movidius_ncs.git
+      version: 0.3.0
+    release:
+      packages:
+      - movidius_ncs_example
+      - movidius_ncs_image
+      - movidius_ncs_launch
+      - movidius_ncs_lib
+      - movidius_ncs_stream
+      tags:
+        release: release/bouncy/{package}/{version}
+      url: https://github.com/chaoli2/ros2_intel_movidius_ncs-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/intel/ros2_intel_movidius_ncs.git
+      version: 0.3.0
+    status: maintained
 type: distribution
 version: 2
